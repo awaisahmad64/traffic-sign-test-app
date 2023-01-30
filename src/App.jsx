@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Child from './components/Child';
 
 function App() {
   const centerStyle = {
@@ -16,6 +17,8 @@ function App() {
           alt="Vite logo"
         />
       </a>
+      <Child name="Fazal Karim" />
+      <Child name="Awais Fazal Karim" />
     </div>
   );
 }
